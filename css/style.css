@@ -1,0 +1,23 @@
+body {
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#areaTriangulo {
+    color: red;
+    display: inline-block;
+}
+
+#resultado {
+    margin-left: 20px;
+   
+}
+
+#areaCirculo {
+    color: red;
+    display: inline-block;
+
+}

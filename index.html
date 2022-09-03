@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 11</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>Challenge 11</h1>
+    <br /><br />
+    <h2>Área del Triángulo</h2>
+    <p>
+      El área o superficie de un triángulo cualquiera es igual al producto de la
+      base por la altura dividido por dos.
+    </p>
+    <img src="data:image/png;base64,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" alt="">
+    
+    <br><br>
+
+   <div id="resultado">
+    <strong> Área del Triángulo <p id="areaTriangulo"></p></strong>
+  </div>
+
+
+
+    <br /><br />
+    <h2>Área del Círculo</h2>
+    <p>
+      El área de un círculo es pi multiplicado por el rad2io al cuadrado (A = π r²). Aprende cómo utilizar esta fórmula para calcular el área de un círculo cuando el diámetro está dado.
+    </p>
+    <img src="https://www.problemasyecuaciones.com/geometria2D/area/circulo/img0.png" alt="">
+     
+    <br><br>
+    
+    <div id="resultado">
+   <strong>Área del Círculo <p id="areaCirculo"></p></strong>
+  </div>
+
+<br><br><br><br>
+<h3>Resultados finales</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/js/javascript.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
